@@ -1,7 +1,6 @@
 function! VimEmoji()
  iabbr :smile: 😃
  iabbr :joyful: 🤣
- iabbr :heart: ❤️
  iabbr :floppy: 💾
  iabbr :apple: 🍎
  iabbr :fox: 🦊
@@ -76,6 +75,9 @@ function! VimEmoji()
  iabbr :happy: 🤗
  iabbr :lol: 😅
  iabbr :geil:  🫦
+ iabbr :radio: 📻
+
+
 endfunction
 
 function! ShowEmoji()
