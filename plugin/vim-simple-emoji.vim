@@ -75,6 +75,7 @@ function! VimEmoji()
  iabbr :wave: 👋
  iabbr :happy: 🤗
  iabbr :lol: 😅
+ iabbr :geil:  🫦
 endfunction
 
 function! ShowEmoji()
