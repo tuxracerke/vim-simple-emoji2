@@ -9,11 +9,13 @@ A simple auto-complete of emoji for Vim. As short as possible!
 
 > I got tired of installing plugins that had a very large number of emoji, since most of those +1,000 I only used around 50 at most. So I created this one that in addition to less emojis is easier to use.
 
-# Instalation
+# Instalation Lazygit
 Use Vundle:
 ```sh
-Plugin 'terroo/vim-simple-emoji'
-" :PluginInstall
+LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
+curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
+tar xf lazygit.tar.gz lazygit
+sudo install lazygit /usr/local/bin
 ```
 
 Use vim-plug
