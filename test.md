@@ -43,11 +43,9 @@ WSL and GUI :
 
 install en start VCXSRV
 kies: one large window, no client, check disable access control!!!
-op WSL:
-export DISPLAY=$(ip route | grep default | awk '{print $3; exit;}'):0.0   (zet evt in .profile)
-
-
+op WSL execute next command: (zet evt in .profile)
 ```sh
+export DISPLAY=$(ip route | grep default | awk '{print $3; exit;}'):0.0   
 ```
 
 
