@@ -1,14 +1,3 @@
-# vim-simple-emoji
-A simple auto-complete of emoji for Vim. As short as possible!
-
-[![Success](https://badgen.net/github/checks/tunnckoCore/opensource)](https://terminalroot.com.br/)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-
-![:ShowEmoji](vim-simple-emoji.jpg)
-
-> I got tired of installing plugins that had a very large number of emoji, since most of those +1,000 I only used around 50 at most. So I created this one that in addition to less emojis is easier to use.
-
 # Instalations various software
 Lazygit:
 ```sh
